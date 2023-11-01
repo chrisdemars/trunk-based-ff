@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /***** Base*****/
 html {
   box-sizing: border-box;
@@ -15,6 +17,7 @@ html {
 body {
   height: 100vh;
   background-color: #282c34;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,17 +41,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #47474dbb;
     width: 100%;
     border-radius: 5px;
     padding: 0 10px;
-  }
-}
+    box-shadow: rgb(0, 229, 255) 0px 20px 30px -10px;
 
-li {
-  cursor: pointer;
+    .logo-title {
+      background: linear-gradient(180deg, rgb(10, 255, 18) 0%, rgb(0, 207, 255) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 5px 0;
+    }
 
-  &:hover {
-    color: red;
+    .primary-nav-list {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .primary-nav-link {
+      color: white;
+      margin-right: 20px;
+      list-style-type: none;
+      cursor: pointer;
+    
+      &:hover {
+        color: red;
+      }
+    }
   }
 }
