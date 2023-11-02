@@ -7,7 +7,7 @@ const Logo = () => {
   if (isEnabled) {
     return (
       <h1 className="logo-title gradient">
-        YourHOLLA
+        YourLogo
       </h1>
     );
   }
