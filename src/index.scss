@@ -53,6 +53,13 @@ body {
       margin: 5px 0;
     }
 
+    .logo-title.gradient {
+      background: linear-gradient(0deg, rgba(121,238,3,1) 0%, rgba(0,231,255,1) 65%); 
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 5px 0;
+    }
+
     .primary-nav-list {
       display: flex;
       justify-content: flex-end;
