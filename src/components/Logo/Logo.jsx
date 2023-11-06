@@ -6,7 +6,7 @@ const Logo = () => {
   console.log(FeatureFlags);
   if (isEnabled) {
     return (
-      <h1 className="logo-title">
+      <h1 className="logo-title gradient">
         YourLogo
       </h1>
     );
